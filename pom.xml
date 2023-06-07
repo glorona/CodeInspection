@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Lab Code Inspection</name>
 	<description>Software Engineering II</description>
-<build>
+<build>	
 	<pluginManagement>
 		<plugins>
 			<plugin>
@@ -37,6 +37,7 @@
 			<configuration>
 				<rulesets>
 					<ruleset>T5_ruleset.xml</ruleset>
+					<ruleset>ClassNamingConventions_Ruleset.xml</ruleset>
 				</rulesets>
 			</configuration>
 		</plugin>

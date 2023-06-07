@@ -2,5 +2,48 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2023-06-07T14:55:12.597">
+    version="6.21.0" timestamp="2023-06-07T15:29:29.589">
+<file name="C:\Users\glorona\Downloads\IngSoftCloneJavier\CodeInspection\src\main\java\labcodeinspection\Email.java">
+<violation beginline="5" endline="5" begincolumn="30" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="m_firstName" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="30" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="m_lastName" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="24" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="department" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="47" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="24" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="email" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="2">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="15" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="Email" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="17" endline="20" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="22" endline="36" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="48" endline="52" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="50" endline="50" begincolumn="30" endcolumn="59" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="50" endline="50" begincolumn="63" endcolumn="91" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\glorona\Downloads\IngSoftCloneJavier\CodeInspection\src\main\java\labcodeinspection\EmailApp.java">
+<violation beginline="9" endline="27" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
 </pmd>
