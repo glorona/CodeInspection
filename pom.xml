@@ -7,8 +7,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Lab Code Inspection</name>
 	<description>Software Engineering II</description>
-</project>
-
 <build>
 	<pluginManagement>
 		<plugins>
@@ -44,3 +42,4 @@
 		</plugin>
 	</plugins>
 </reporting>
+</project>
